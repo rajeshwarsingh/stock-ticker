@@ -1,0 +1,16 @@
+{
+  "name": "stock_ticker",
+  "version": "1.0.0",
+  "description": "Dockerised node.js rest service that returns stock ticker prices from the stock exchange",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.1",
+    "node-fetch": "^2.6.1"
+  }
+}
